@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run download command
-        run: wget -qO- "http://cachefly.cachefly.net/100mb.test" &> /dev/null
+        run: wget -O- "http://cachefly.cachefly.net/100mb.test" &> /dev/null
