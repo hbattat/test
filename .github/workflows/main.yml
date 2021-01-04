@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run download command
-        run: wget -O /dev/null "http://cachefly.cachefly.net/100mb.test"
+        run: wget -O /dev/null "http://lg-dal.ipv4.drserver.net/100MB.test"
